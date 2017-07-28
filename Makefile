@@ -4,7 +4,7 @@ IDIR = include
 SDIR = src
 ODIR = $(SDIR)/obj
 
-CFLAGS = -I $(IDIR) -Wall
+CFLAGS = -std=c99 -I $(IDIR) -Wall
 LIBS = -lncurses
 
 ENAME = tetris_clone
